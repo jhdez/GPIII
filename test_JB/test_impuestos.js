@@ -1,0 +1,8 @@
+
+test( 'Testing obtenerImporteConImpuestos()', function() {
+	equal( obtenerImporteConImpuestos( 2 ), 2.42);
+	equal( obtenerImporteConImpuestos( 1 ), 1.21 );
+	equal( obtenerImporteConImpuestos( 1 ), 1.5 );
+} );
+
+
